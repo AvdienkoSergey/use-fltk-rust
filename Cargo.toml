@@ -6,6 +6,9 @@ edition = "2021"
 [dependencies]
 # https://docs.rs/fltk/latest/fltk/
 # "FLTK Rust tutorial" - is a search string to find information on YouTube
-fltk = { version = "1.4", features = ["fltk-bundled"] }
+# https://fltk-rs.github.io/fltk-book/The-App-struct.html
+fltk = { version = "^1.4", features = ["fltk-bundled"] }
+# https://crates.io/crates/fltk-theme
+fltk-theme = "0.7.3"
 # https://docs.rs/rand/latest/rand/
 rand = "0.8.5"
